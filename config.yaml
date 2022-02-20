@@ -1,0 +1,21 @@
+# ****************************** Main set ******************************************
+#_____________________________________________________________________________________________________________
+# Phoenix BIOS Editor path. exe файл Phoenix BIOS Editor
+phoenix_editor_path: C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe
+
+# Rom file path. Папка в которой находится rom файл (Желательно без русских символов и пробелов).
+file_path: C:\Users\taima\Downloads
+
+# Rom filename. Название rom файла
+file_name: New6006.ROM
+
+# modif file path. Папка для хранения полученного файла
+save_file_path: C:\Users\taima\FILES_ROM
+#_____________________________________________________________________________________________________________
+
+# ****************************** Add set ******************************************
+# new/connect
+launch_type: new
+sleep_time: 2
+add_sleep_time: 0.2 # sleep open file
+save_file_name:

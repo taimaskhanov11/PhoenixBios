@@ -1,0 +1,83 @@
+2022-02-20 11:19:44.804 | ERROR    | phoenixbios.phoenix:run_phoenix:104 - Process "C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe" not found!
+2022-02-20 11:21:39.662 | ERROR    | phoenixbios.phoenix:run_phoenix:104 - Process "C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe" not found!
+2022-02-20 11:22:32.448 | ERROR    | __main__:<module>:22 - An error has been caught in function '<module>', process 'MainProcess' (19940), thread 'MainThread' (13688):
+Traceback (most recent call last):
+
+> File "C:\Users\taima\PycharmProjects\PhoenixBios\phoenixbios\main.py", line 22, in <module>
+    main()
+    └ <function main at 0x00000213AF9B9A20>
+
+  File "C:\Users\taima\PycharmProjects\PhoenixBios\phoenixbios\main.py", line 17, in main
+    p.start()
+    │ └ <function PhoenixBios.start at 0x00000213AF982E60>
+    └ <phoenixbios.phoenix.PhoenixBios object at 0x00000213AF9AA410>
+
+  File "C:\Users\taima\PycharmProjects\PhoenixBios\phoenixbios\phoenix.py", line 141, in start
+    self.open_file()
+    │    └ <function PhoenixBios.open_file at 0x00000213AF982B00>
+    └ <phoenixbios.phoenix.PhoenixBios object at 0x00000213AF9AA410>
+
+  File "C:\Users\taima\PycharmProjects\PhoenixBios\phoenixbios\phoenix.py", line 54, in open_file
+    fiel_names_type.type_keys(FILENAME, pause=0)
+    │               │         └ 'New6006.ROM'
+    │               └ <function BaseWrapper.type_keys at 0x00000213AEE16B00>
+    └ <win32_controls.EditWrapper - '', Edit, 790070>
+
+  File "C:\Users\taima\AppData\Local\pypoetry\Cache\virtualenvs\phoenixbios-18jGv3Xl-py3.10\lib\site-packages\pywinauto\base_wrapper.py", line 937, in type_keys
+    self.verify_actionable()
+    │    └ <function BaseWrapper.verify_actionable at 0x00000213AEE163B0>
+    └ <win32_controls.EditWrapper - '', Edit, 790070>
+
+  File "C:\Users\taima\AppData\Local\pypoetry\Cache\virtualenvs\phoenixbios-18jGv3Xl-py3.10\lib\site-packages\pywinauto\base_wrapper.py", line 680, in verify_actionable
+    self.verify_visible()
+    │    └ <function BaseWrapper.verify_visible at 0x00000213AEE164D0>
+    └ <win32_controls.EditWrapper - '', Edit, 790070>
+
+  File "C:\Users\taima\AppData\Local\pypoetry\Cache\virtualenvs\phoenixbios-18jGv3Xl-py3.10\lib\site-packages\pywinauto\base_wrapper.py", line 703, in verify_visible
+    raise ElementNotVisible()
+          └ <class 'pywinauto.base_wrapper.ElementNotVisible'>
+
+pywinauto.base_wrapper.ElementNotVisible
+2022-02-20 11:27:48.114 | ERROR    | phoenixbios.phoenix:run_phoenix:105 - Process "C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe" not found!
+2022-02-20 11:28:33.284 | ERROR    | phoenixbios.phoenix:run_phoenix:105 - Process "C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe" not found!
+2022-02-20 11:29:17.369 | ERROR    | phoenixbios.phoenix:run_phoenix:105 - Process "C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe" not found!
+2022-02-20 11:30:05.234 | ERROR    | phoenixbios.phoenix:run_phoenix:104 - Process "C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe" not found!
+2022-02-20 11:30:20.533 | ERROR    | __main__:<module>:22 - An error has been caught in function '<module>', process 'MainProcess' (1900), thread 'MainThread' (1100):
+Traceback (most recent call last):
+
+> File "C:\Users\taima\PycharmProjects\PhoenixBios\phoenixbios\main.py", line 22, in <module>
+    main()
+    └ <function main at 0x000001EF08799A20>
+
+  File "C:\Users\taima\PycharmProjects\PhoenixBios\phoenixbios\main.py", line 17, in main
+    p.start()
+    │ └ <function PhoenixBios.start at 0x000001EF08762E60>
+    └ <phoenixbios.phoenix.PhoenixBios object at 0x000001EF0878A410>
+
+  File "C:\Users\taima\PycharmProjects\PhoenixBios\phoenixbios\phoenix.py", line 145, in start
+    self.save(motherboard, serial_number)
+    │    │    │            └ "'145503344026'"
+    │    │    └ 'GA-B85-D3V'
+    │    └ <function PhoenixBios.save at 0x000001EF08762DD0>
+    └ <phoenixbios.phoenix.PhoenixBios object at 0x000001EF0878A410>
+
+  File "C:\Users\taima\PycharmProjects\PhoenixBios\phoenixbios\phoenix.py", line 128, in save
+    fiel_names_type.type_keys(f"{filename}_{serial_number}", pause=0)
+    │               └ <function BaseWrapper.type_keys at 0x000001EF07BF6B00>
+    └ <win32_controls.EditWrapper - '', Edit, 397198>
+
+  File "C:\Users\taima\AppData\Local\pypoetry\Cache\virtualenvs\phoenixbios-18jGv3Xl-py3.10\lib\site-packages\pywinauto\base_wrapper.py", line 937, in type_keys
+    self.verify_actionable()
+    │    └ <function BaseWrapper.verify_actionable at 0x000001EF07BF63B0>
+    └ <win32_controls.EditWrapper - '', Edit, 397198>
+
+  File "C:\Users\taima\AppData\Local\pypoetry\Cache\virtualenvs\phoenixbios-18jGv3Xl-py3.10\lib\site-packages\pywinauto\base_wrapper.py", line 680, in verify_actionable
+    self.verify_visible()
+    │    └ <function BaseWrapper.verify_visible at 0x000001EF07BF64D0>
+    └ <win32_controls.EditWrapper - '', Edit, 397198>
+
+  File "C:\Users\taima\AppData\Local\pypoetry\Cache\virtualenvs\phoenixbios-18jGv3Xl-py3.10\lib\site-packages\pywinauto\base_wrapper.py", line 703, in verify_visible
+    raise ElementNotVisible()
+          └ <class 'pywinauto.base_wrapper.ElementNotVisible'>
+
+pywinauto.base_wrapper.ElementNotVisible

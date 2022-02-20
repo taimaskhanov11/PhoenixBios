@@ -1,0 +1,6 @@
+2022-02-20 09:48:31.444 | ERROR    | phoenixbios.phoenix:run_phoenix:90 - Process "C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe" not found!
+2022-02-20 09:48:49.920 | CRITICAL | __main__:main:20 - Could not find 'SaveROMFile' in 'dict_keys(['ThunderRT6MDIForm', 'Phoenix BIOS Editor Pro - NEW6006.ROM', 'Phoenix BIOS Editor Pro - NEW6006.ROMThunderRT6MDIForm', 'Phoenix BIOS Editor ProThunderRT6Main', 'Phoenix BIOS Editor Pro', 'ThunderRT6Main'])'
+2022-02-20 09:49:56.367 | ERROR    | phoenixbios.phoenix:run_phoenix:90 - Process "C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe" not found!
+2022-02-20 09:50:03.469 | CRITICAL | __main__:main:20 - Could not find 'PhoenixBIOSEditorPro' in 'dict_keys([])'
+2022-02-20 09:50:20.906 | ERROR    | phoenixbios.phoenix:run_phoenix:90 - Process "C:\Program Files (x86)\Phoenix Technologies Ltd\BIOS Editor\BIOSEDIT.exe" not found!
+2022-02-20 09:50:28.345 | CRITICAL | __main__:main:20 - Could not find 'Yes' in 'dict_keys(['ToolbarWndClass', 'Toolbar', 'MDIClient', 'StatusBar'])'
